@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+
+# 動画は置かない
+videos/
+*.mp4
+
+# go2_policy_utils.py が再生のたびに params/env.yaml から作る
+models/*/params/env_isaacsim61.yaml
+
+# 学習結果（Isaac Lab の logs をここで動かした場合）
+logs/
